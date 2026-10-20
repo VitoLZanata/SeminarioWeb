@@ -1,0 +1,17 @@
+{
+  "name": "labparts-backend",
+  "version": "1.0.0",
+  "description": "LabParts - CRUD de componentes eletrônicos de um laboratório (Node.js + Express + SQLite)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "better-sqlite3": "^11.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  }
+}
